@@ -240,7 +240,7 @@ void loop(){
       Serial.print("3 : ");
       Serial.println(str_Data_3);
       Tx2_status = false;
-      Tx3_status = true;
+      Tx1_status = true;
     }
     delay(100);
   }
@@ -268,3 +268,4 @@ bool runEvery(unsigned long interval){
   }
   return false;
 }
+
